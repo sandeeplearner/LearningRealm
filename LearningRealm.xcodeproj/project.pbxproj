@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D3FE141DF3786B7B1715E47 /* Pods_LearningRealmTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E406ABE40A13A57EABB0702 /* Pods_LearningRealmTests.framework */; };
+		2C3BB3FA207B9814000499EE /* RealmExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C3BB3F9207B9814000499EE /* RealmExtension.swift */; };
 		2C8970F92079394D0062A036 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8970F82079394D0062A036 /* AppDelegate.swift */; };
 		2C8970FB2079394D0062A036 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8970FA2079394D0062A036 /* ViewController.swift */; };
 		2C8970FE2079394D0062A036 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C8970FC2079394D0062A036 /* Main.storyboard */; };
@@ -14,6 +16,19 @@
 		2C8971032079394D0062A036 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C8971012079394D0062A036 /* LaunchScreen.storyboard */; };
 		2C89710E2079394D0062A036 /* LearningRealmTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C89710D2079394D0062A036 /* LearningRealmTests.swift */; };
 		2C8971192079394D0062A036 /* LearningRealmUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8971182079394D0062A036 /* LearningRealmUITests.swift */; };
+		2C89712720793BE50062A036 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C89712620793BE50062A036 /* Person.swift */; };
+		2C897129207960B80062A036 /* AddUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C897128207960B80062A036 /* AddUserViewController.swift */; };
+		2C89712D207B67A40062A036 /* PersonsCustomSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C89712C207B67A40062A036 /* PersonsCustomSection.swift */; };
+		2C897130207B6A880062A036 /* PersonTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C89712E207B6A880062A036 /* PersonTableViewCell.swift */; };
+		2C897131207B6A880062A036 /* PersonTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C89712F207B6A880062A036 /* PersonTableViewCell.xib */; };
+		2C897133207B77F30062A036 /* DogesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C897132207B77F30062A036 /* DogesViewController.swift */; };
+		2C897135207B784B0062A036 /* Dogs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C897134207B784B0062A036 /* Dogs.swift */; };
+		2C897137207B7CE40062A036 /* DogsCustomSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C897136207B7CE40062A036 /* DogsCustomSection.swift */; };
+		2C89713A207B7E5D0062A036 /* DogsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C897138207B7E5D0062A036 /* DogsTableViewCell.swift */; };
+		2C89713B207B7E5D0062A036 /* DogsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C897139207B7E5D0062A036 /* DogsTableViewCell.xib */; };
+		2C89713D207B806E0062A036 /* AddDogsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C89713C207B806E0062A036 /* AddDogsViewController.swift */; };
+		B3F291A2B47C451335933ACE /* Pods_LearningRealmUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82862B579300A5BF601E813B /* Pods_LearningRealmUITests.framework */; };
+		E34C75DF5136696AEE35A688 /* Pods_LearningRealm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78813D998747ED208EC2AEB3 /* Pods_LearningRealm.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +49,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		17241E8E18ADDFF3164EB082 /* Pods-LearningRealmTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LearningRealmTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LearningRealmTests/Pods-LearningRealmTests.release.xcconfig"; sourceTree = "<group>"; };
+		1DE0285A1D09210F5AC34F81 /* Pods-LearningRealm.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LearningRealm.release.xcconfig"; path = "Pods/Target Support Files/Pods-LearningRealm/Pods-LearningRealm.release.xcconfig"; sourceTree = "<group>"; };
+		2C3BB3F9207B9814000499EE /* RealmExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmExtension.swift; sourceTree = "<group>"; };
 		2C8970F52079394D0062A036 /* LearningRealm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearningRealm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C8970F82079394D0062A036 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2C8970FA2079394D0062A036 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +65,24 @@
 		2C8971142079394D0062A036 /* LearningRealmUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LearningRealmUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C8971182079394D0062A036 /* LearningRealmUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearningRealmUITests.swift; sourceTree = "<group>"; };
 		2C89711A2079394D0062A036 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C89712620793BE50062A036 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		2C897128207960B80062A036 /* AddUserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddUserViewController.swift; sourceTree = "<group>"; };
+		2C89712C207B67A40062A036 /* PersonsCustomSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonsCustomSection.swift; sourceTree = "<group>"; };
+		2C89712E207B6A880062A036 /* PersonTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonTableViewCell.swift; sourceTree = "<group>"; };
+		2C89712F207B6A880062A036 /* PersonTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PersonTableViewCell.xib; sourceTree = "<group>"; };
+		2C897132207B77F30062A036 /* DogesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogesViewController.swift; sourceTree = "<group>"; };
+		2C897134207B784B0062A036 /* Dogs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dogs.swift; sourceTree = "<group>"; };
+		2C897136207B7CE40062A036 /* DogsCustomSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogsCustomSection.swift; sourceTree = "<group>"; };
+		2C897138207B7E5D0062A036 /* DogsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogsTableViewCell.swift; sourceTree = "<group>"; };
+		2C897139207B7E5D0062A036 /* DogsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DogsTableViewCell.xib; sourceTree = "<group>"; };
+		2C89713C207B806E0062A036 /* AddDogsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddDogsViewController.swift; sourceTree = "<group>"; };
+		3E406ABE40A13A57EABB0702 /* Pods_LearningRealmTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LearningRealmTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		558077DDC3247C4D9822E62F /* Pods-LearningRealmTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LearningRealmTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LearningRealmTests/Pods-LearningRealmTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6E6D65214E72D9D601A6CB70 /* Pods-LearningRealmUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LearningRealmUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LearningRealmUITests/Pods-LearningRealmUITests.release.xcconfig"; sourceTree = "<group>"; };
+		78813D998747ED208EC2AEB3 /* Pods_LearningRealm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LearningRealm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		82862B579300A5BF601E813B /* Pods_LearningRealmUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LearningRealmUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5CD45C72E1114D683B41857 /* Pods-LearningRealm.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LearningRealm.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LearningRealm/Pods-LearningRealm.debug.xcconfig"; sourceTree = "<group>"; };
+		F9B734740B13BC8845CC4EB9 /* Pods-LearningRealmUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LearningRealmUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LearningRealmUITests/Pods-LearningRealmUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E34C75DF5136696AEE35A688 /* Pods_LearningRealm.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D3FE141DF3786B7B1715E47 /* Pods_LearningRealmTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +106,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3F291A2B47C451335933ACE /* Pods_LearningRealmUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		18B3AFC90A878F3F6A40727B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C5CD45C72E1114D683B41857 /* Pods-LearningRealm.debug.xcconfig */,
+				1DE0285A1D09210F5AC34F81 /* Pods-LearningRealm.release.xcconfig */,
+				558077DDC3247C4D9822E62F /* Pods-LearningRealmTests.debug.xcconfig */,
+				17241E8E18ADDFF3164EB082 /* Pods-LearningRealmTests.release.xcconfig */,
+				F9B734740B13BC8845CC4EB9 /* Pods-LearningRealmUITests.debug.xcconfig */,
+				6E6D65214E72D9D601A6CB70 /* Pods-LearningRealmUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		2C8970EC2079394D0062A036 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +133,8 @@
 				2C89710C2079394D0062A036 /* LearningRealmTests */,
 				2C8971172079394D0062A036 /* LearningRealmUITests */,
 				2C8970F62079394D0062A036 /* Products */,
+				18B3AFC90A878F3F6A40727B /* Pods */,
+				7A57527FC611AC39DD6C30C4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,9 +154,21 @@
 				2C8970F82079394D0062A036 /* AppDelegate.swift */,
 				2C8970FA2079394D0062A036 /* ViewController.swift */,
 				2C8970FC2079394D0062A036 /* Main.storyboard */,
+				2C897128207960B80062A036 /* AddUserViewController.swift */,
 				2C8970FF2079394D0062A036 /* Assets.xcassets */,
 				2C8971012079394D0062A036 /* LaunchScreen.storyboard */,
 				2C8971042079394D0062A036 /* Info.plist */,
+				2C89712620793BE50062A036 /* Person.swift */,
+				2C89712C207B67A40062A036 /* PersonsCustomSection.swift */,
+				2C89712E207B6A880062A036 /* PersonTableViewCell.swift */,
+				2C89712F207B6A880062A036 /* PersonTableViewCell.xib */,
+				2C897132207B77F30062A036 /* DogesViewController.swift */,
+				2C897134207B784B0062A036 /* Dogs.swift */,
+				2C897136207B7CE40062A036 /* DogsCustomSection.swift */,
+				2C897138207B7E5D0062A036 /* DogsTableViewCell.swift */,
+				2C897139207B7E5D0062A036 /* DogsTableViewCell.xib */,
+				2C89713C207B806E0062A036 /* AddDogsViewController.swift */,
+				2C3BB3F9207B9814000499EE /* RealmExtension.swift */,
 			);
 			path = LearningRealm;
 			sourceTree = "<group>";
@@ -125,6 +191,16 @@
 			path = LearningRealmUITests;
 			sourceTree = "<group>";
 		};
+		7A57527FC611AC39DD6C30C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				78813D998747ED208EC2AEB3 /* Pods_LearningRealm.framework */,
+				3E406ABE40A13A57EABB0702 /* Pods_LearningRealmTests.framework */,
+				82862B579300A5BF601E813B /* Pods_LearningRealmUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +208,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2C89711D2079394D0062A036 /* Build configuration list for PBXNativeTarget "LearningRealm" */;
 			buildPhases = (
+				D2FD1D0E65BF23F482E914D8 /* [CP] Check Pods Manifest.lock */,
 				2C8970F12079394D0062A036 /* Sources */,
 				2C8970F22079394D0062A036 /* Frameworks */,
 				2C8970F32079394D0062A036 /* Resources */,
+				47B20A9DDBC2CEA281EE38CA /* [CP] Embed Pods Frameworks */,
+				69E927593F9C6DE34040C00A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +228,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2C8971202079394D0062A036 /* Build configuration list for PBXNativeTarget "LearningRealmTests" */;
 			buildPhases = (
+				311CB7F66071A9C47AFEAAD2 /* [CP] Check Pods Manifest.lock */,
 				2C8971052079394D0062A036 /* Sources */,
 				2C8971062079394D0062A036 /* Frameworks */,
 				2C8971072079394D0062A036 /* Resources */,
+				294DF24027CB683093FB56C9 /* [CP] Embed Pods Frameworks */,
+				AF948329615E03E2E3DC37AA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +249,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2C8971232079394D0062A036 /* Build configuration list for PBXNativeTarget "LearningRealmUITests" */;
 			buildPhases = (
+				BE9C86F1E287AC8EDE4F62B1 /* [CP] Check Pods Manifest.lock */,
 				2C8971102079394D0062A036 /* Sources */,
 				2C8971112079394D0062A036 /* Frameworks */,
 				2C8971122079394D0062A036 /* Resources */,
+				8352411562556214194E8DB1 /* [CP] Embed Pods Frameworks */,
+				32550E74CEB526CDEF55BA8D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -234,6 +319,8 @@
 			files = (
 				2C8971032079394D0062A036 /* LaunchScreen.storyboard in Resources */,
 				2C8971002079394D0062A036 /* Assets.xcassets in Resources */,
+				2C897131207B6A880062A036 /* PersonTableViewCell.xib in Resources */,
+				2C89713B207B7E5D0062A036 /* DogsTableViewCell.xib in Resources */,
 				2C8970FE2079394D0062A036 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -254,11 +341,183 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		294DF24027CB683093FB56C9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LearningRealmTests/Pods-LearningRealmTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		311CB7F66071A9C47AFEAAD2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LearningRealmTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		32550E74CEB526CDEF55BA8D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LearningRealmUITests/Pods-LearningRealmUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		47B20A9DDBC2CEA281EE38CA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-LearningRealm/Pods-LearningRealm-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Action/Action.framework",
+				"${BUILT_PRODUCTS_DIR}/Differentiator/Differentiator.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxDataSources/RxDataSources.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Action.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Differentiator.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxDataSources.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LearningRealm/Pods-LearningRealm-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		69E927593F9C6DE34040C00A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LearningRealm/Pods-LearningRealm-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8352411562556214194E8DB1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LearningRealmUITests/Pods-LearningRealmUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AF948329615E03E2E3DC37AA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LearningRealmTests/Pods-LearningRealmTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BE9C86F1E287AC8EDE4F62B1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LearningRealmUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D2FD1D0E65BF23F482E914D8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LearningRealm-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2C8970F12079394D0062A036 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C897130207B6A880062A036 /* PersonTableViewCell.swift in Sources */,
+				2C897137207B7CE40062A036 /* DogsCustomSection.swift in Sources */,
+				2C89713A207B7E5D0062A036 /* DogsTableViewCell.swift in Sources */,
+				2C89712D207B67A40062A036 /* PersonsCustomSection.swift in Sources */,
+				2C897135207B784B0062A036 /* Dogs.swift in Sources */,
+				2C89713D207B806E0062A036 /* AddDogsViewController.swift in Sources */,
+				2C89712720793BE50062A036 /* Person.swift in Sources */,
+				2C897133207B77F30062A036 /* DogesViewController.swift in Sources */,
+				2C897129207960B80062A036 /* AddUserViewController.swift in Sources */,
+				2C3BB3FA207B9814000499EE /* RealmExtension.swift in Sources */,
 				2C8970FB2079394D0062A036 /* ViewController.swift in Sources */,
 				2C8970F92079394D0062A036 /* AppDelegate.swift in Sources */,
 			);
@@ -424,10 +683,13 @@
 		};
 		2C89711E2079394D0062A036 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5CD45C72E1114D683B41857 /* Pods-LearningRealm.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8KM97Q6J88;
 				INFOPLIST_FILE = LearningRealm/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sandeep.LearningRealm;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -438,10 +700,13 @@
 		};
 		2C89711F2079394D0062A036 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1DE0285A1D09210F5AC34F81 /* Pods-LearningRealm.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8KM97Q6J88;
 				INFOPLIST_FILE = LearningRealm/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sandeep.LearningRealm;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -452,6 +717,7 @@
 		};
 		2C8971212079394D0062A036 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 558077DDC3247C4D9822E62F /* Pods-LearningRealmTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -468,6 +734,7 @@
 		};
 		2C8971222079394D0062A036 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17241E8E18ADDFF3164EB082 /* Pods-LearningRealmTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -484,6 +751,7 @@
 		};
 		2C8971242079394D0062A036 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9B734740B13BC8845CC4EB9 /* Pods-LearningRealmUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -499,6 +767,7 @@
 		};
 		2C8971252079394D0062A036 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E6D65214E72D9D601A6CB70 /* Pods-LearningRealmUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
